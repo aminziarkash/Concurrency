@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Created by aziarkash on 15-6-2016.
  */
-public class CounterAtomic {
+public class AtomicCounter {
 
     private AtomicInteger count = new AtomicInteger();
 

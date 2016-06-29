@@ -9,7 +9,7 @@ public class IncrementerThread extends Thread {
     // private Counter counter;
 
     // solution
-    private CounterAtomic counter;
+    private AtomicCounter counter;
 
     // problem
     // all instances are passed the same counter
@@ -18,7 +18,7 @@ public class IncrementerThread extends Thread {
 //    }
 
     // solution
-    public IncrementerThread(final CounterAtomic counter) {
+    public IncrementerThread(final AtomicCounter counter) {
         this.counter = counter;
     }
 
